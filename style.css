@@ -7,6 +7,17 @@
     font-size: 14px;
 }
 
+.group span a:hover {
+    color: #cac8e6;
+    text-decoration: none;
+    background-color: #fcfcfc;
+}
+
+.group a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -34,6 +45,18 @@ body {
 
 .instagram-phone img {
     height: 50rem;
+}
+
+.segundaImagem {
+    float: left;
+    margin-left: -450px;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+
+.ajuste {
+    margin-left: -180px;
 }
 
 .instagram-continue {
@@ -77,7 +100,7 @@ body {
 }
 
 .instagram-login {
-    background-color: #0095f6;
+    background-color: #c7ddec;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
@@ -93,7 +116,7 @@ body {
 }
 
 .link-blue {
-    color: #0095f6;
+    color: #000000;
 }
 
 .get-the-app {

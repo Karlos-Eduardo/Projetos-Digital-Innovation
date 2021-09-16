@@ -2,40 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" href="./img/instagram.png">
 </head>
 <body>
-    <div class="instagram-wrapper">
+    <div class="instagram-wrapper container">
         <div class="instagram-phone">
             <img src="./img/instagram-celular.png" alt="celular">
         </div>
-        <div class="instagram-continue">
+
+        <div class="instagram-phone">
+            <img class="segundaImagem" src="./img/imagem-modificada.png" alt="celular">
+        </div>
+
+        <div class="instagram-continue ajuste">
             <div class="group">
                 <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
                 <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                    <img src="./img/Foto.jpeg" alt="foto de perfil">
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
+                <button class="instagram-login btn btn-lg"><a href="#">Continue como KarlosEduardo</a></button>
                 <a href="#" class="instagram-logout">Remover conta</a>
             </div>
             <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
+                <p class="not-account">Não é KarlosEduardo?</p>
                 <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
+                    <span><a class="link-blue" href="#">Alternar contas</a></span>
                     ou
-                    <span class="link-blue">Inscreva-se</span>
+                    <span><a class="link-blue" href="https://www.instagram.com/accounts/emailsignup/">Inscreva-se</a></span>
                 </p>
             </div>
             <div class="get-the-app">
                 <p class="get-app">Baixe o aplicativo</p>
                 <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                    <a target="_blank" href="https://apps.apple.com/app/instagram/id389801252?vt=lo" class="app-download"></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=loginPage&ig_mid=32164EE2-E6DA-4BD8-B620-41C80F76DFD4&utm_content=lo&utm_medium=badge" class="app-download"></a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
